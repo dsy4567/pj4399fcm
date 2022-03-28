@@ -11,7 +11,6 @@
 
 (function() {
     'use strict';
-    alert("开始破解防沉迷和屏蔽广告,若没有成功,请向我们反馈")
     window.onload=function(){
     if (document.getElementById("addiv")!=null){
     document.getElementById("addiv").remove();}
@@ -21,5 +20,4 @@
     document.getElementById("Anti_mask").remove();}
     if (document.getElementById("pusher")!=null){
     document.getElementById("pusher").remove();}}
-    // Your code here...
 })();
